@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: penguin_asset
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":102.4458,"y":81.97217},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"5e807305-719b-452e-88a9-0bfb6c6b1352","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"ef98fef4-1fb7-4a2a-ade7-8d2777de39fc","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"chainable":false,"member":{"name":"localScale","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":2.0,"y":2.0,"z":2.0,"$type":"UnityEngine.Vector3"}},"position":{"x":286.0,"y":-10.0},"guid":"b8cf8a87-eed1-4033-a30f-96fc266fac35","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"member":{"name":"localScale","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-220.0,"y":193.0},"guid":"1f253ff0-d159-42eb-a5c4-fe1b50cb386c","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"16"},{"defaultValues":{"b":{"x":1.0001,"y":1.0001,"z":1.0001,"$type":"UnityEngine.Vector3"}},"position":{"x":-3.0,"y":170.0},"guid":"36830f1d-066e-48c4-af6e-a29c8d76f7b5","$version":"A","$type":"Unity.VisualScripting.Vector3Multiply","$id":"19"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"bd6fb823-3db0-4c02-af0a-35b0e7abddcc","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"product","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"bcb2ae2c-2d65-4689-9320-1e67eee1172c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"a","guid":"30ffdbd6-4d83-40a4-804b-787370748fa6","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
